@@ -1,8 +1,8 @@
 <p>
 
-## 完整使用手冊
+## 📖 完整使用手冊
 
-[開啟線上版使用手冊](https://jamesliu69.github.io/skills/)
+🔗 [開啟線上版使用手冊](https://jamesliu69.github.io/skills/)
 
   <a href="https://www.aihero.dev/s/skills-newsletter">
     <picture>
