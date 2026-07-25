@@ -1,5 +1,5 @@
 interface:
   display_name: "Edit Article"
-  short_description: "Restructure and tighten a draft"
+  short_description: "透過重組段落、改善清晰度與精簡文字來編輯及改善文章。當使用者想編輯、修訂或改善文章草稿時使用。"
 policy:
   allow_implicit_invocation: false

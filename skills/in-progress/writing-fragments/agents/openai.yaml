@@ -1,5 +1,5 @@
 interface:
   display_name: "Writing Fragments"
-  short_description: "Mine raw writing fragments"
+  short_description: "寫作，探索：挖掘原始片段，尚不建立結構。"
 policy:
   allow_implicit_invocation: false

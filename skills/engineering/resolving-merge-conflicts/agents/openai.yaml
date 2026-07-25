@@ -1,3 +1,3 @@
 interface:
   display_name: "Resolving Merge Conflicts"
-  short_description: "Resolve merge and rebase conflicts"
+  short_description: "當需要解決進行中的 git merge 或 rebase 衝突時使用。"

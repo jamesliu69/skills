@@ -1,3 +1,3 @@
 interface:
   display_name: "Grilling"
-  short_description: "Stress-test thinking one question at a time"
+  short_description: "針對計畫、決策或想法對使用者進行密集追問。當使用者想壓力測試想法，或使用任何 grill 觸發詞時使用。"

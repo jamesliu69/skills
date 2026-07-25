@@ -1,5 +1,5 @@
 interface:
   display_name: "To Spec"
-  short_description: "Turn a conversation into a spec"
+  short_description: "將目前對話整理成規格，並發佈至專案 issue tracker；不進行訪談，只綜合既有討論內容。"
 policy:
   allow_implicit_invocation: false

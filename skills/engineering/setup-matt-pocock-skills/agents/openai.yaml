@@ -1,5 +1,5 @@
 interface:
   display_name: "Setup Matt Pocock Skills"
-  short_description: "Configure a repo for the skills"
+  short_description: "設定此儲存庫的 engineering skills，包括 issue tracker、triage 標籤詞彙與領域文件配置。第一次使用其他 engineering skills 前執行一次。"
 policy:
   allow_implicit_invocation: false

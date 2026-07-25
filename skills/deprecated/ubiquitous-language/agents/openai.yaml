@@ -1,5 +1,5 @@
 interface:
   display_name: "Ubiquitous Language"
-  short_description: "Build a shared domain glossary"
+  short_description: "從目前對話擷取 DDD 風格的通用語言詞彙表，標示歧義並提出標準術語，儲存至 UBIQUITOUS_LANGUAGE.md。當使用者想定義領域術語、建立詞彙表、強化術語、建立通用語言，或提到「領域模型」或「DDD」時使用。"
 policy:
   allow_implicit_invocation: false

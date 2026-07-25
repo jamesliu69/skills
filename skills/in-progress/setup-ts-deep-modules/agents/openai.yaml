@@ -1,5 +1,5 @@
 interface:
   display_name: "Setup TS Deep Modules"
-  short_description: "Enforce deep TypeScript modules"
+  short_description: "將 dependency-cruiser 接入 TypeScript 儲存庫，使每個套件成為深層模組：實作隱藏在子資料夾，只能透過入口檔案存取。由使用者主動觸發。"
 policy:
   allow_implicit_invocation: false

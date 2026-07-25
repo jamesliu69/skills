@@ -1,5 +1,5 @@
 interface:
   display_name: "Wizard"
-  short_description: "Generate an interactive setup wizard"
+  short_description: "產生互動式 bash wizard，引導人類完成手動程序，例如第三方設定、一次性遷移或 A→B 狀態轉換；wizard 會開啟 URL、擷取值、確認步驟，並寫入 .env 檔案與 GitHub Actions secrets。"
 policy:
   allow_implicit_invocation: false

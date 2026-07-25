@@ -1,3 +1,3 @@
 interface:
   display_name: "Git Guardrails for Claude Code"
-  short_description: "Block dangerous git commands"
+  short_description: "設定 Claude Code hooks，在危險的 git 指令執行前阻擋它們，例如 push、reset --hard、clean、branch -D 等。當使用者想防止破壞性 git 操作、加入 git 安全 hooks，或阻擋 Claude Code 中的 git push／reset 時使用。"

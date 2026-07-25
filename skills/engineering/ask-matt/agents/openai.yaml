@@ -1,5 +1,5 @@
 interface:
   display_name: "Ask Matt"
-  short_description: "Find the right skill or workflow"
+  short_description: "詢問哪個 skill 或流程適合目前情境，作為此儲存庫 skills 的路由器。"
 policy:
   allow_implicit_invocation: false

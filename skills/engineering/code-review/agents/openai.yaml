@@ -1,3 +1,3 @@
 interface:
   display_name: "Code Review"
-  short_description: "Review a diff on standards and spec"
+  short_description: "沿著固定起點（commit、branch、tag 或 merge-base）檢查變更，分別從標準（是否遵循儲存庫記錄的編碼標準）與規格（是否符合來源 issue／PRD）兩個面向審查。平行執行兩項審查代理，並並列回報結果。當使用者想審查分支、PR、進行中的變更，或要求「審查自 X 以來的變更」時使用。"
