@@ -1,7 +1,10 @@
 ---
 name: code-review
-description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".
+description: "沿著固定起點（commit、branch、tag 或 merge-base）檢查變更，分別從標準（是否遵循儲存庫記錄的編碼標準）與規格（是否符合來源 issue／PRD）兩個面向審查。平行執行兩項審查代理，並並列回報結果。當使用者想審查分支、PR、進行中的變更，或要求「審查自 X 以來的變更」時使用。"
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 Two-axis review of the diff between `HEAD` and a fixed point the user supplies:
 

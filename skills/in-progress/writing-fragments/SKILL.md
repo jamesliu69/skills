@@ -1,8 +1,11 @@
 ---
 name: writing-fragments
-description: Writing, explore — mine raw fragments, no structure yet.
+description: "寫作，探索：挖掘原始片段，尚不建立結構。"
 disable-model-invocation: true
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 <what-to-do>
 

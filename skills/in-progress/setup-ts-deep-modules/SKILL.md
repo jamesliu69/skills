@@ -1,8 +1,11 @@
 ---
 name: setup-ts-deep-modules
-description: Wire dependency-cruiser into a TypeScript repo so each package is a deep module — implementation hidden in subfolders, reachable only through its entry-point files. User-invoked.
+description: "將 dependency-cruiser 接入 TypeScript 儲存庫，使每個套件成為深層模組：實作隱藏在子資料夾，只能透過入口檔案存取。由使用者主動觸發。"
 disable-model-invocation: true
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 # Setup TS Deep Modules
 

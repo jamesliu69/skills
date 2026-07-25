@@ -1,8 +1,11 @@
 ---
 name: ubiquitous-language
-description: Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions "domain model" or "DDD".
+description: "從目前對話擷取 DDD 風格的通用語言詞彙表，標示歧義並提出標準術語，儲存至 UBIQUITOUS_LANGUAGE.md。當使用者想定義領域術語、建立詞彙表、強化術語、建立通用語言，或提到「領域模型」或「DDD」時使用。"
 disable-model-invocation: true
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 # Ubiquitous Language
 

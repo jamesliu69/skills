@@ -1,8 +1,11 @@
 ---
 name: improve-codebase-architecture
-description: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
+description: "掃描程式碼庫以尋找深化機會，產生視覺化 HTML 報告，然後針對選定項目進行追問。"
 disable-model-invocation: true
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 # Improve Codebase Architecture
 

@@ -1,7 +1,10 @@
 ---
 name: qa
-description: Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions "QA session".
+description: "互動式 QA 工作階段：使用者以對話方式回報錯誤或問題，代理人在背景探索程式碼庫以取得上下文與領域語言，並建立 GitHub issues。當使用者想回報錯誤、進行 QA、建立 issues，或提到「QA 工作階段」時使用。"
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 # QA Session
 

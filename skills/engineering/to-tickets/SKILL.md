@@ -1,8 +1,11 @@
 ---
 name: to-tickets
-description: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.
+description: "將計畫、規格或目前對話拆成一組 tracer-bullet tickets，每張 ticket 宣告其阻塞邊；邊以本機每張 ticket 一個檔案中的文字呈現，或在實際 tracker 中建立原生阻塞連結。"
 disable-model-invocation: true
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 # To Tickets
 

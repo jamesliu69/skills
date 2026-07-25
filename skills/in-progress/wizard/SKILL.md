@@ -1,8 +1,11 @@
 ---
 name: wizard
-description: Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets.
+description: "產生互動式 bash wizard，引導人類完成手動程序，例如第三方設定、一次性遷移或 A→B 狀態轉換；wizard 會開啟 URL、擷取值、確認步驟，並寫入 .env 檔案與 GitHub Actions secrets。"
 disable-model-invocation: true
 ---
+## 輸出語言
+
+除非使用者明確要求其他語言，否則所有回覆、文件、規格、報告、摘要、說明文字與產出內容都必須使用正體中文，並優先使用臺灣常用語。程式碼識別字、API 名稱、CLI 指令、檔案路徑、類別名稱、套件名稱、協定名稱及必要技術專有名詞保留原文。
 
 # Wizard
 
