@@ -15,7 +15,7 @@
 
 # Skills For Real Engineers
 
-[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)
+[![skills.sh](https://skills.sh/b/jamesliu69/skills)](https://skills.sh/jamesliu69/skills)
 
 
 
@@ -29,12 +29,14 @@ If you want to keep up with changes to these skills, and any new ones I create, 
 
 [Sign Up To The Newsletter](https://www.aihero.dev/s/skills-newsletter)
 
-## Quickstart (30-second setup)
+## 安裝我的 fork 版本
 
-1. Run the skills.sh installer:
+這是 `jamesliu69/skills` 的版本，支援 Codex、Claude Code 及其他 Agent Skills 相容的 AI 工具。
+
+1. 使用 skills.sh 安裝：
 
 ```bash
-npx skills@latest add mattpocock/skills
+npx skills@latest add jamesliu69/skills
 ```
 
 2. Pick the skills you want, and which coding agents you want to install them on. **Make sure you select `/setup-matt-pocock-skills`**.
@@ -46,21 +48,21 @@ npx skills@latest add mattpocock/skills
 
 4. Bam - you're ready to go.
 
-## Install as a Claude Code plugin
+## Install my fork as a Claude Code plugin
 
 Prefer a plug-and-play install you don't maintain by hand? These skills also ship as a native [Claude Code plugin](https://code.claude.com/docs/en/plugins). Instead of copying editable files into your repo, the plugin installs the whole skill set as a managed bundle that updates when I ship a new version — you subscribe rather than fork.
 
 Inside Claude Code:
 
 ```
-/plugin marketplace add mattpocock/skills
+/plugin marketplace add jamesliu69/skills
 /plugin install mattpocock-skills@mattpocock
 ```
 
 Or from your shell:
 
 ```bash
-claude plugin marketplace add mattpocock/skills
+claude plugin marketplace add jamesliu69/skills
 claude plugin install mattpocock-skills@mattpocock
 ```
 
@@ -68,10 +70,10 @@ Then run `/setup-matt-pocock-skills` once per repo, exactly as in the quickstart
 
 Two ways to install, two philosophies:
 
-- **[skills.sh](https://skills.sh/mattpocock/skills)** copies the skills into your project so you can hack on them and make them your own.
+- **[skills.sh](https://skills.sh/jamesliu69/skills)** copies this fork's skills into your project so you can hack on them and make them your own.
 - **The plugin** keeps them as a read-only, always-current bundle you don't edit — best when you just want my set to work and follow along as it evolves.
 
-> Using Codex or another agent? The [skills.sh installer](https://skills.sh/mattpocock/skills) already installs these skills into Codex and other Agent-Skills-standard harnesses today. A native Codex plugin is on the roadmap — see [`.agents/adr/0002-ship-as-a-claude-code-plugin.md`](./.agents/adr/0002-ship-as-a-claude-code-plugin.md).
+> Using Codex or another agent? The [skills.sh installer](https://skills.sh/jamesliu69/skills) installs this fork into Codex and other Agent-Skills-standard harnesses. A native Codex plugin is on the roadmap — see [`.agents/adr/0002-ship-as-a-claude-code-plugin.md`](./.agents/adr/0002-ship-as-a-claude-code-plugin.md).
 
 ## Why These Skills Exist
 
