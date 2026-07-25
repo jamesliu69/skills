@@ -1,4 +1,9 @@
 <p>
+
+## 完整使用手冊
+
+[開啟線上版使用手冊](https://jamesliu69.github.io/skills/)
+
   <a href="https://www.aihero.dev/s/skills-newsletter">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png">
@@ -12,9 +17,7 @@
 
 [![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)
 
-## 完整使用手冊
 
-[開啟線上版使用手冊](https://jamesliu69.github.io/skills/)
 
 My agent skills that I use every day to do real engineering - not vibe coding.
 
