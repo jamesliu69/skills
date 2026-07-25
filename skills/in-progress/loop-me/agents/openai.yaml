@@ -1,5 +1,5 @@
 interface:
-  display_name: "Loop Me"
+  display_name: "Matt-Loop Me"
   short_description: "針對想建立的工作流程規格，對使用者進行密集追問。"
 policy:
   allow_implicit_invocation: false

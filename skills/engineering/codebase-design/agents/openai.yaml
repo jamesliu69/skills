@@ -1,3 +1,3 @@
 interface:
-  display_name: "Codebase Design"
+  display_name: "Matt-Codebase Design"
   short_description: "提供設計深層模組的共同詞彙。當使用者想設計或改善模組介面、尋找深化機會、決定接縫位置、讓程式碼更容易測試或讓 AI 更容易導覽，或其他 skill 需要深層模組詞彙時使用。"

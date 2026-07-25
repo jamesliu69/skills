@@ -1,5 +1,5 @@
 interface:
-  display_name: "To Tickets"
+  display_name: "Matt-To Tickets"
   short_description: "將計畫、規格或目前對話拆成一組 tracer-bullet tickets，每張 ticket 宣告其阻塞邊；邊以本機每張 ticket 一個檔案中的文字呈現，或在實際 tracker 中建立原生阻塞連結。"
 policy:
   allow_implicit_invocation: false

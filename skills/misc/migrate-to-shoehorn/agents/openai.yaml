@@ -1,3 +1,3 @@
 interface:
-  display_name: "Migrate to Shoehorn"
+  display_name: "Matt-Migrate to Shoehorn"
   short_description: "將測試檔案從 `as` 型別斷言遷移至 @total-typescript/shoehorn。當使用者提到 shoehorn、想在測試中取代 `as`，或需要部分測試資料時使用。"

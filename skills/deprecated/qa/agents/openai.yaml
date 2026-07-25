@@ -1,3 +1,3 @@
 interface:
-  display_name: "QA"
+  display_name: "Matt-QA"
   short_description: "互動式 QA 工作階段：使用者以對話方式回報錯誤或問題，代理人在背景探索程式碼庫以取得上下文與領域語言，並建立 GitHub issues。當使用者想回報錯誤、進行 QA、建立 issues，或提到「QA 工作階段」時使用。"

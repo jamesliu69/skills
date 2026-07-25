@@ -1,5 +1,5 @@
 interface:
-  display_name: "To Questionnaire"
+  display_name: "Matt-To Questionnaire"
   short_description: "將無法完整回答的決策轉換成供其他人填寫的問卷。"
 policy:
   allow_implicit_invocation: false

@@ -1,5 +1,5 @@
 interface:
-  display_name: "Grill with Docs"
+  display_name: "Matt-Grill with Docs"
   short_description: "透過逐步追問來磨利計畫或設計，並在過程中建立文件（ADR 與詞彙表）。"
 policy:
   allow_implicit_invocation: false
