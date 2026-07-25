@@ -1,3 +1,3 @@
 interface:
-  display_name: "Setup Pre-Commit"
+  display_name: "Matt-Setup Pre-Commit"
   short_description: "在目前儲存庫設定搭配 lint-staged（Prettier）的 Husky pre-commit hooks、型別檢查與測試。當使用者想設定 pre-commit hooks、Husky、lint-staged，或提交時的格式化／型別檢查／測試時使用。"

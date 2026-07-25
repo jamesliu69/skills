@@ -1,5 +1,5 @@
 interface:
-  display_name: "Triage"
+  display_name: "Matt-Triage"
   short_description: "讓 issues 與外部 PR 依照 triage 角色的狀態機流轉：分類、驗證、必要時追問，並撰寫可供代理執行的簡報。"
 policy:
   allow_implicit_invocation: false

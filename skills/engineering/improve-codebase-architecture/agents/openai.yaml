@@ -1,5 +1,5 @@
 interface:
-  display_name: "Improve Codebase Architecture"
+  display_name: "Matt-Improve Codebase Architecture"
   short_description: "掃描程式碼庫以尋找深化機會，產生視覺化 HTML 報告，然後針對選定項目進行追問。"
 policy:
   allow_implicit_invocation: false

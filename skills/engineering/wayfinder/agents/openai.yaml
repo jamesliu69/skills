@@ -1,5 +1,5 @@
 interface:
-  display_name: "Wayfinder"
+  display_name: "Matt-Wayfinder"
   short_description: "規劃超過單一代理工作階段可容納的大型工作，將其拆成 issue tracker 上的共享決策 tickets，逐一解決直到路徑清楚。"
 policy:
   allow_implicit_invocation: false

@@ -1,5 +1,5 @@
 interface:
-  display_name: "Handoff"
+  display_name: "Matt-Handoff"
   short_description: "將目前對話壓縮成交接文件，供另一個代理接續工作。"
 policy:
   allow_implicit_invocation: false

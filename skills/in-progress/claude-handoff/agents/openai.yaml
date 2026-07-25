@@ -1,5 +1,5 @@
 interface:
-  display_name: "Claude Handoff"
+  display_name: "Matt-Claude Handoff"
   short_description: "將目前對話交接給立即接手工作的全新背景代理。"
 policy:
   allow_implicit_invocation: false

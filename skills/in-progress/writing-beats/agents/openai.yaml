@@ -1,5 +1,5 @@
 interface:
-  display_name: "Writing Beats"
+  display_name: "Matt-Writing Beats"
   short_description: "寫作，探索：將原始素材組合成由段落節拍構成的旅程，並在每個術語被節拍依賴前先建立其基礎。"
 policy:
   allow_implicit_invocation: false

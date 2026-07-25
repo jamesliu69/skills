@@ -1,5 +1,5 @@
 interface:
-  display_name: "Writing Shape"
+  display_name: "Matt-Writing Shape"
   short_description: "寫作，發揮：逐段將原始素材塑造成文章。"
 policy:
   allow_implicit_invocation: false

@@ -1,3 +1,3 @@
 interface:
-  display_name: "Diagnosing Bugs"
+  display_name: "Matt-Diagnosing Bugs"
   short_description: "針對困難錯誤與效能退化的診斷迴圈。當使用者說「診斷」或「除錯」，或回報程式碼損壞、拋出錯誤、失敗或變慢時使用。"
