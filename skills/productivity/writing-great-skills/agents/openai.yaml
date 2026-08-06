@@ -1,5 +1,0 @@
-interface:
-  display_name: "Matt-Writing Great Skills"
-  short_description: "撰寫與編輯優良 skills 的參考資料，涵蓋讓 skill 可預測的詞彙與原則。"
-policy:
-  allow_implicit_invocation: false

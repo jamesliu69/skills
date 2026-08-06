@@ -1,5 +1,0 @@
-interface:
-  display_name: "Matt-Batch Grill Me"
-  short_description: "每回合一次詢問所有關鍵前沿問題的密集訪談。"
-policy:
-  allow_implicit_invocation: false

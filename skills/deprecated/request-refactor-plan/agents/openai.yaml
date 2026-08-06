@@ -1,3 +1,0 @@
-interface:
-  display_name: "Matt-Request Refactor Plan"
-  short_description: "透過使用者訪談建立包含微小提交的詳細重構計畫，然後將其建立為 GitHub issue。當使用者想規劃重構、建立重構 RFC，或將重構拆成安全的漸進步驟時使用。"
