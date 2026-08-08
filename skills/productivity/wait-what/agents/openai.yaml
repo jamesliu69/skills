@@ -1,5 +1,5 @@
 interface:
-  display_name: "Wait What"
-  short_description: "Re-pitch that — simpler, with the context I'm missing"
+  display_name: "Matt-Wait What"
+  short_description: "重新說明上一則未傳達的訊息"
 policy:
   allow_implicit_invocation: false
