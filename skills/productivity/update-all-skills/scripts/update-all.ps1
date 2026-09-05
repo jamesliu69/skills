@@ -1,4 +1,4 @@
-﻿#Requires -Version 7
+#Requires -Version 7
 [CmdletBinding()]
 param(
     [switch]$Quick
@@ -105,10 +105,10 @@ if ((Test-Path $nodeExe) -and (Test-Path $npmCli)) {
         $cur = try { (& $nodeExe -e "console.log(require('C:/nvm4w/nodejs/node_modules/$pkg/package.json').version)") } catch { '?' }
         $lat = (& $nodeExe $npmCli view $pkg version 2>$null)
         if ($lat -and $cur -ne $lat) {
-            Write-Host "  -> 升級 $pkg: $cur -> $lat (nvm)..." -ForegroundColor Yellow
+            Write-Host "  -> 升級 $($pkg)：$cur -> $lat (nvm)..." -ForegroundColor Yellow
             & $nodeExe $npmCli install -g --prefix 'C:\nvm4w\nodejs' "$pkg@latest" 2>&1 | Out-Null
         } else {
-            Write-Host "  -> $pkg 已是最新 ($cur)" -ForegroundColor DarkGray
+            Write-Host "  -> $($pkg) 已是最新 ($cur)" -ForegroundColor DarkGray
         }
     }
 
@@ -117,10 +117,10 @@ if ((Test-Path $nodeExe) -and (Test-Path $npmCli)) {
         $cur = try { (& $nodeExe -e "console.log(require('$roamPath').version)") } catch { '?' }
         $lat = (& $nodeExe $npmCli view $pkg version 2>$null)
         if ($lat -and $cur -ne $lat) {
-            Write-Host "  -> 升級 $pkg: $cur -> $lat (Roaming)..." -ForegroundColor Yellow
+            Write-Host "  -> 升級 $($pkg)：$cur -> $lat (Roaming)..." -ForegroundColor Yellow
             & $nodeExe $npmCli install -g --prefix "$uHome\AppData\Roaming\npm" "$pkg@latest" 2>&1 | Out-Null
         } else {
-            Write-Host "  -> $pkg 已是最新 ($cur)" -ForegroundColor DarkGray
+            Write-Host "  -> $($pkg) 已是最新 ($cur)" -ForegroundColor DarkGray
         }
     }
 } else {
