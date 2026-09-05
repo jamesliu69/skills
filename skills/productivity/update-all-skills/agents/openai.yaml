@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "Matt-Update All Skills"
+  short_description: "一鍵檢查並升級全系統所有 AI 技能、外掛與工具"
+policy:
+  allow_implicit_invocation: false
