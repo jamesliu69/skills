@@ -1,6 +1,6 @@
 ---
 name: domain-modeling
-description: "建立並精煉專案的領域模型。當使用者想確定領域術語或通用語言、記錄架構決策，或其他 skill 需要維護領域模型時使用。"
+description: "建立並精煉專案的領域模型。當討論程式碼庫術語、撰寫或編輯 CONTEXT.md，或是記錄或編輯 ADR 時使用。"
 ---
 ## 輸出語言
 

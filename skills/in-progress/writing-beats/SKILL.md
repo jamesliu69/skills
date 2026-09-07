@@ -1,6 +1,6 @@
 ---
 name: writing-beats
-description: "寫作，探索：將原始素材組合成由段落節拍構成的旅程，並在每個術語被節拍依賴前先建立其基礎。"
+description: "寫作，發揮：將原始素材組合成由段落節拍構成的旅程，並在每個術語被節拍依賴前先建立其基礎。"
 disable-model-invocation: true
 ---
 ## 輸出語言
