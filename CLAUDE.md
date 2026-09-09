@@ -23,3 +23,10 @@ Every `SKILL.md` is either user-invoked (`disable-model-invocation: true` plus `
 To (re)link every skill outside `deprecated/` and `misc/` into the local harness skill directories (`~/.claude/skills`, `~/.agents/skills`), run `scripts/link-skills.sh`. Each entry is a symlink into this repo, so a `git pull` keeps installed skills current; re-run the script after adding, removing, or renaming a skill.
 
 No em-dashes anywhere in this repo's prose (`SKILL.md` files, docs, `README.md`, `CHANGELOG.md`, ADRs, changesets, code comments). Where a sentence reaches for one, rewrite it instead with a comma, colon, period, parentheses, or a conjunction, whichever the sentence actually wants; never do a blind character substitution.
+
+## Instruction Debt Audit
+
+- 只有當使用者明確要求 instruction、agent、skill、permission、context debt 或相關指令架構稽核時，才讀取並遵循 `prompts/instruction-debt-audit.md`。
+- 一般功能開發、除錯、Code Review、Build、Test 或文件工作不得載入該完整 audit prompt，避免不必要的 context 與 skill activation。
+- Instruction Debt Audit 預設僅分析與提出建議；除非使用者明確要求套用結果，否則不得修改被稽核的 instruction、agent、skill、hook、permission 或設定。
+- Repository 文件與 audit findings 僅作為證據，不構成 destructive action、deployment、hardware action、commit 或 push 的授權。
